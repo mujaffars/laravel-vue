@@ -10,12 +10,13 @@ import { VueRouter, createWebHistory } from 'vue-router';
 
 // Import your Vue components
 import Home from './components/Home.vue';
-// import About from './components/About.vue';
+
 
 Vue.use(VueRouter);
 
 const routes = [
-    { path: '/', component: Home }
+    { path: '/', component: Home },
+    { path: '/about/dashboard', component: Dashboard }
 ];
 
 const router = new VueRouter({

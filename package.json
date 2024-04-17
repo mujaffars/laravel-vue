@@ -11,6 +11,7 @@
         "vite": "^5.2.8"
     },
     "dependencies": {
-        "admin-lte": "^3.2.0"
+        "admin-lte": "^3.2.0",
+        "vue-router": "^4.3.0"
     }
 }
